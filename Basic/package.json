@@ -2,16 +2,14 @@
   "name": "react-test",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "webpack.config.js",
   "scripts": {
+    "dev": "webpack-dev-server --content-base src --progress --colors --inline --hot",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "webpack": "^1.13.1"
-  },
-  "devDependencies": {
     "babel-loader": "^6.2.0",
     "babel-plugin-add-module-exports": "^0.1.2",
     "babel-plugin-react-html-attrs": "^2.0.0",
@@ -24,5 +22,6 @@
     "react-dom": "^0.14.6",
     "webpack": "^1.12.9",
     "webpack-dev-server": "^1.14.1"
-  }
+  },
+  "devDependencies": {}
 }
